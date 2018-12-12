@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.main {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color:rgb(144, 194, 58);
+}
+
+.input {
+  align-self: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  align-self: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 1vmin);
+  background-color: rgb(144, 194, 58);;
+}
+
+.button:hover {
+  color: rgb(144, 194, 58);;
+  border-color: currentColor;
+  background-color: white;
+}
+
+.btn:focus {
+  color: rgb(144, 194, 58);;
+  border-color: currentColor;
+  background-color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.image {
+  max-height: 20vh;
+  transform: rotate(0deg);
+  transform: rotate(360deg);
+}
